@@ -14,20 +14,84 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" crossorigin src="/spark-joy-star/index.js"></script>
     <link rel="modulepreload" crossorigin href="/spark-joy-star/assets/vendor-Cl1sraJX.js">
     <link rel="stylesheet" crossorigin href="/spark-joy-star/assets/vendor-BMD19QWe.css">
-    <link rel="stylesheet" crossorigin href="/spark-joy-star/assets/styles-B6Qm0msS.css">
+    <link rel="stylesheet" crossorigin href="/spark-joy-star/assets/styles-CSV-UcF-.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    
+    <header class="header" data-color="#091018">
+  <div class="container header-container">
+    <nav class="nav ">
+      <button type="button" class="menu-button" aria-label="button for open menu">
+        <svg class="header-svg" width="24" height="24">
+          <use href="/spark-joy-star/assets/sprite-Ck7Xthee.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="#Welcome">Welcome to<br/> Spark Joy<br/> Star</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Philosophy">Our<br/> Philosophy</a>
+        </li> 
+        <li class="navigation-item">
+          <a class="links" href="#Programs">Creative<br/> Learning<br/> Programs</a>
+        </li> 
+        <li class="navigation-item">
+          <a class="links" href="#Talent">Talent<br/> Discovery &<br/> Growth</a>
+        </li>  
+        <li class="navigation-item">
+          <a class="links"  href="#Testimonials">Parent &<br/> Child<br/> Testimonials</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Expert">Expert<br/> Educators</a>
+        </li>
+       <li class="navigation-item">
+          <a class="links" href="#Spaces">Interactive<br/> Learning<br/> Spaces</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Started">How to Get<br/> Started</a>
+        </li>                 
+      </ul>
+    </nav>
   </div>
 </header>
-
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <button class="modal-close-button" aria-label="close button">
+    <svg class="modal-svg" width="24" height="24">
+      <use href="/spark-joy-star/assets/sprite-Ck7Xthee.svg#icon-cross"></use>
+    </svg>
+  </button>
+  <ul class="menu-list">
+    <li class="menu-item" ><a class="menu-list-item" href="#Welcome">Welcome to Spark Joy Star</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Philosophy">Our Philosophy</a></li>
+    <li class="menu-item">
+      <a class="menu-list-item" href="#Expert">Expert Educators</a>
+    </li>
+    <li class="menu-item"><a class="menu-list-item" href="#Programs">Creative Learning Programs</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Started">How to Get Started</a></li>
+    <li class="menu-item">
+      <a class="menu-list-item" href="#Testimonials">Parent & Child Testimonials</a>
+    </li>
+    <li class="menu-item"><a class="menu-list-item" href="#Spaces">Interactive Learning Spaces</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Talent">Talent Discovery & Growth</a></li>
+  </ul>
+    <ul class="policy-list">
+    <li class="policy-item">      
+      <a class="menu-list-item list-condition" href="Privacy%20Policy.html">Privacy Policy</a>
+    </li>
+    <li class="policy-item">      
+      <a class="menu-list-item list-condition" href="Terms & Conditions.html">Terms & Conditions</a>
+    </li>
+    <li class="policy-item">   
+      <a class="menu-list-item list-condition" href="Cookies Policy.html">Cookies Policy</a>
+    </li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
       <!-- Hero -->
- <section class="hero-section">
+ <section class="hero-section" id="Welcome">
     <div class="container">
         <h1 class="hero-title">Welcome to Spark Joy Star</h1>
         <p class="hero-first-text">Inspiring young minds to shine and create a brighter future.</p>
@@ -39,7 +103,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </div>
  </section>
  <!-- Our Philosophy -->
-  <article class="philosophy-section">
+  <article class="philosophy-section" id="Philosophy">
     <div class="container">
         <h2 class="philosophy-title">Our Philosophy</h2>
         <div class="philosophy-wrapper">
@@ -65,7 +129,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </div>
   </article>
   <!-- Creative Learning Programs -->
-   <section class="creative-section">
+   <section class="creative-section" id="Programs">
     <div class="container">
         <h2 class="creative-title">Creative Learning Programs</h2>
         <p class="pink-text-creative">Unlocking creativity through<br/>interactive and fun-filled experiences.</p>
@@ -128,7 +192,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </div>
    </section>
    <!-- Talent Discovery & Growth -->
-    <section class="talent-section">
+    <section class="talent-section" id="Talent">
         <div class="container">
             <h2 class="talent-title">Talent Discovery<br class="talent-br"/> & Growth</h2>
             <p class="orange-text">Helping children find and refine their natural abilities.</p>
@@ -171,7 +235,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         </div>
     </section>
     <!-- Parent & Child Testimonials -->
-    <section class="child-section">
+    <section class="child-section" id="Testimonials">
         <div class="container child-container">
             <h2 class="child-title">Parent & Child Testimonials</h2>
             <img class="child-img-quote" src="data:image/png;base64,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" alt="Quote" loading="lazy"/>
@@ -224,7 +288,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         </div>
     </section>
     <!-- Expert Educators -->
-     <section class="expert-section">
+     <section class="expert-section" id="Expert">
         <div class="container">
             <h2 class="expert-title">Expert Educators</h2>
             <p class="expert-colored-text">Guiding young minds with passion and experience.</p>
@@ -248,7 +312,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         </div>
      </section>
      <!-- Interactive Learning Spaces -->
-      <section class="space-section">
+      <section class="space-section" id="Spaces">
         <div class="container">
             <h2 class="space-title">Interactive Learning Spaces</h2>
             <p class="colored-space-text">Designed for creativity, inspiration, and fun!</p>
@@ -297,7 +361,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         </div>
       </section>
       <!-- How to Get Started -->
-       <section class="start-section">
+       <section class="start-section" id="Started">
         <div class="container">
             <h2 class="start-title">How to Get Started</h2>
             <p class="start-big-text">Join the Spark Joy Star family and ignite your child’s potential.</p>
