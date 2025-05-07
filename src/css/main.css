@@ -5,7 +5,7 @@
     background-image: url("/img/hero/hero-mob.png"), url("/img/hero/vector-mob.png"), url("/img/hero/straws-mob.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: contain, contain, contain;
-    background-position: top 250px center, top 430px center, bottom 10px center;
+    background-position: top 270px center, top 450px center, bottom 10px center;
 }
 .hero-title{
     font-family: "Poppins", sans-serif;
@@ -21,6 +21,7 @@ text-shadow:
 1px 1px 0 rgba(255, 255, 255, 0.9),
 -1px 1px 0 rgba(255, 255, 255, 0.9);
 margin-bottom: 16px;
+margin-top: 20px;
 }
 .hero-first-text{
     font-family: "Poppins", sans-serif;
