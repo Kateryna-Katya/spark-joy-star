@@ -697,3 +697,74 @@ margin-bottom: 8px;
         margin-right: auto;
     }
     }
+    /* How to Get Started */
+    .start-title{
+        padding-bottom: 10px;
+        border-bottom: 2px solid #058392;
+        width: 343px;
+        margin-bottom: 32px;      
+    }
+    .start-big-text{
+        font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 1.4;
+text-align: center;
+color: #058392;
+margin-bottom: 24px;
+    }
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.contact-text{
+    font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 1.5;
+color: #222;
+}
+.contact-mail{
+    font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #222;
+}
+@media only screen and (min-width: 1439px) {
+    .start-section{
+         background-image: url("/img/line.png");
+        background-position:top 140px left;
+        background-repeat: no-repeat;
+        background-size:708px;
+    }
+    .start-title{
+            border-bottom: none;
+        width: 708px;
+        margin-bottom: 64px;     
+      } 
+.start-big-text{
+font-size: 32px;
+line-height: 1.5;
+text-align: left;
+margin-bottom: 16px;
+width: 519px;
+    }
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 0;
+    align-items: left;
+    margin-left: 199px;
+}
+.start-img{
+    margin-left: 640px;
+    margin-top: -300px;
+}
+    }
