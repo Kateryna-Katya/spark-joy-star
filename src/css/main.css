@@ -266,3 +266,259 @@ letter-spacing: -0.02em;
 color: #823c90;
 }
 }
+/* Talent Discovery & Growth */
+.talent-section{
+    background-image: url("/img/talent/orange-mob.png");
+    background-repeat: no-repeat;
+    background-position: top 140px center;
+    background-size:contain;
+}
+.talent-title{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #058392;
+width: 343px;
+margin-bottom: 85px;   
+}
+.orange-text{
+    width: 275px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 65px;
+}
+.talent-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.talent-item{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.number-talent-text{
+    font-family: "Poppins", sans-serif;
+font-weight: 275;
+font-size: 52px;
+line-height: 1;
+text-align: center;
+color: #222;
+width: 68px;
+height: 68px;
+}
+.talent-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 267px;
+}
+.talent-subtitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #058392;
+    width: 267px;
+}
+.talent-text{
+    font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 1.4;
+color: #222;
+}
+@media only screen and (min-width: 1439px) {
+    .talent-section{
+        background-image: url("/img/line.png"), url("/img/talent/orange-desk.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: top 140px left, top 60px right 80px;
+        background-size:841px, 404px 242px;
+    } 
+    .talent-title{
+        border-bottom: none;
+    width: 841px;
+    margin-bottom: 85px;   
+    }
+    .talent-br{
+        display: none;
+    }
+    .orange-text{
+        width: 237px;
+        font-size: 24px;
+       text-align: left;
+       margin-left: auto;
+       margin-right:45px;
+       margin-bottom: 0;
+       margin-top: -80px;
+    }
+    .talent-list{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 0;
+        margin-top: -80px;
+    }
+    .number-talent-text{
+    font-size: 72px;
+    }
+    .talent-text-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 789px;
+    }
+    .talent-subtitle{
+        width: 789px;
+    }
+.talent-img{
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: -260px;
+}
+}
+/* Parent & Child Testimonials */
+.child-section{
+    background-color: #a4c6ca;
+    background-image: url("/img/child/purple-mob.png");
+    background-position: top 138px right;
+    background-repeat: no-repeat;
+    background-size: 320px 126px;
+}
+.child-title{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #058392;
+    width: 343px;
+    margin-bottom: 30px;     
+}
+.child-img-quote{
+    width: 80px;
+    height: 80px;
+   }
+   .purple-text{
+    width: 243px;
+    margin-left: 90px;
+    margin-top: -65px;
+    margin-bottom: 52px;
+   }
+   .custom-navigation{
+    display: none;
+   }
+   .child-comment{
+    font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 1.4;
+color: #222;
+width: 273px;
+   }
+   .child-author{
+    font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.3;
+letter-spacing: -0.02em;
+color: #222;
+width: 273px;
+margin-top: 8px;
+   }
+   .pag_container {
+    margin-top: 24px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 16px;
+    background-color:#d4d4d2;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    border:inherit;
+  }  
+  .pag_bar {
+    width: 50px;
+    height: 100%;
+    background-color: #058392;
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.3s ease-in-out;
+  }
+  @media only screen and (min-width: 1439px) {
+    .child-section{
+         background-image: url("/img/line.png"), url("/img/child/purple-desk.png");
+        background-position:top 140px left, top 50px right 80px;
+        background-repeat: no-repeat,no-repeat;
+        background-size:841px, 409px 139px;
+    }
+    .child-title{
+        padding-bottom: 10px;
+        border-bottom:none;
+        width: 841px;
+        margin-bottom: 0;     
+    } 
+    .child-img-quote{
+        width: 80px;
+        height: 80px;
+        margin-left: 830px;
+        margin-top: -80px;
+       }
+       .purple-text{
+        width: 315px;
+        font-size: 20px;
+        margin-left: 930px;
+        margin-bottom: 39px;
+       }
+    .child-swiper{
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+   
+ 
+    .child-container{
+        position: relative;
+    }
+      .custom-navigation{
+        display: flex;
+        justify-content: space-between;
+       position: absolute;
+       z-index: 1000;
+          }
+    .custom-arrow{
+        border-radius: 100px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background-color: rgba(212, 212, 210, 0.7);
+        border:none;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.custom-arrow:hover,
+.custom-arrow:active{
+    background-color:  #d4d4d2;
+}
+.custom-prev{
+    position: absolute;  
+    top: 30px; 
+}
+.custom-next{
+    transform: rotate(180deg);
+    box-shadow: 0 -4px 4px 0 rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 1220px;
+    top: 30px;
+}
+.pag_container{
+    display: none;
+}
+.child-comment{
+width: 333px;
+   }
+   .child-author{
+width: 333px;
+margin-top: 8px;
+   }
+  }
